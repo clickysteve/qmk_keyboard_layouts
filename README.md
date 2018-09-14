@@ -1,2 +1,5 @@
 # qmk_keyboard_layouts
-Resources relating to QMK and programming for mechanical keyboards.
+
+Hello. This repo contains example layouts for my custom mechanical keyboards, which use QMK. 
+
+For more information, please see <https://docs.qmk.fm/#/> and <http://reddit.com/r/mechanicalkeyboards>
