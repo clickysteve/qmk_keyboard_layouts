@@ -31,54 +31,54 @@ enum custom_keycodes {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
-	[0] = LAYOUT(KC_GESC, KC_1, KC_2, KC_3, KC_4, KC_5, KC_6, KC_7, KC_8, KC_9, KC_0, KC_MINS, KC_EQL, KC_BSPC, 
-		KC_TAB, KC_Q, KC_W, KC_E, KC_R, KC_T, LSFT(KC_F5), KC_NO, KC_Y, KC_U, KC_I, KC_O, KC_P, KC_SCLN, 
-		HYPR(KC_NO), KC_A, KC_S, KC_D, KC_F, KC_G, LCA(KC_NO), LGUI(KC_J), KC_H, KC_J, KC_K, KC_L, KC_QUOT, KC_ENT, 
-		KC_LSFT, KC_Z, KC_X, KC_C, KC_V, KC_B, LGUI(KC_V), LGUI(KC_O), KC_N, KC_M, KC_COMM, KC_DOT, KC_UP, RSFT_T(KC_SLSH), 
-		MO(3), KC_LCTL, KC_LALT, MO(1), KC_LGUI, MO(1), LGUI(KC_C), KC_ENT, KC_SPC, LGUI(KC_K), LALT(KC_3), KC_LEFT, KC_DOWN, KC_RGHT),
+  [0] = LAYOUT(KC_GESC, KC_1, KC_2, KC_3, KC_4, KC_5, KC_6, KC_7, KC_8, KC_9, KC_0, KC_MINS, KC_EQL, KC_BSPC, 
+    KC_TAB, KC_Q, KC_W, KC_E, KC_R, KC_T, LSFT(KC_F5), KC_NO, KC_Y, KC_U, KC_I, KC_O, KC_P, KC_SCLN, 
+    HYPR(KC_NO), KC_A, KC_S, KC_D, KC_F, KC_G, LCA(KC_NO), LGUI(KC_J), KC_H, KC_J, KC_K, KC_L, KC_QUOT, KC_ENT, 
+    KC_LSFT, KC_Z, KC_X, KC_C, KC_V, KC_B, LGUI(KC_V), LGUI(KC_O), KC_N, KC_M, KC_COMM, KC_DOT, KC_UP, RSFT_T(KC_SLSH), 
+    MO(2), KC_LCTL, KC_LALT, MO(1), KC_LGUI, MO(1), LGUI(KC_C), KC_ENT, KC_SPC, LGUI(KC_K), LALT(KC_3), KC_LEFT, KC_DOWN, KC_RGHT),
 
-	[1] = LAYOUT(BL_ON, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, KC_F6, KC_F7, KC_F8, KC_F9, MACRO_SMILE, KC_LBRC, KC_RBRC, KC_BSPC, 
-		_______, _______, _______, _______, _______, MACRO_TROLL, _______, _______, _______, _______, _______, MACRO_OO, _______, _______, 
-		_______, _______, MACRO_SHRUG, _______, MACRO_FLIP, _______, _______, _______, MACRO_HMM, _______, _______, MACRO_LOOK, KC_COLN, _______, 
-		_______, _______, _______, _______, _______, _______, _______, _______, _______, MACRO_ME, LCTL(KC_F1), LCTL(KC_F2), KC_QUES, KC_BSLS, 
-		_______, KC_LCTL, _______, KC_TRNS, _______, _______, _______, _______, KC_MPLY, LGUI(KC_O), XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX),
+  [1] = LAYOUT(BL_ON, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, KC_F6, KC_F7, KC_F8, KC_F9, MACRO_SMILE, KC_LBRC, KC_RBRC, KC_BSPC, 
+    _______, _______, _______, _______, _______, MACRO_TROLL, _______, _______, _______, _______, _______, MACRO_OO, _______, _______, 
+    _______, _______, MACRO_SHRUG, _______, MACRO_FLIP, _______, _______, _______, MACRO_HMM, _______, _______, MACRO_LOOK, KC_COLN, _______, 
+    _______, _______, _______, _______, _______, _______, _______, _______, _______, MACRO_ME, LCTL(KC_F1), LCTL(KC_F2), KC_QUES, KC_BSLS, 
+    _______, KC_LCTL, _______, KC_TRNS, _______, _______, _______, _______, KC_MPLY, LGUI(KC_O), XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX),
 
-	[2] = LAYOUT(KC_GESC, KC_1, KC_2, KC_3, KC_4, KC_5, KC_6, KC_7, KC_8, KC_9, KC_0, KC_MINS, KC_LBRC, KC_BSPC, 
-		KC_TAB, KC_Q, KC_W, KC_E, KC_R, KC_T, LSFT(KC_F5), KC_NO, KC_Y, KC_U, KC_I, KC_O, KC_P, KC_SCLN, 
-		HYPR(KC_NO), KC_A, KC_S, KC_D, KC_F, KC_G, LCA(KC_NO), LGUI(KC_J), KC_H, KC_J, KC_K, KC_L, KC_QUOT, KC_ENT, 
-		KC_LSFT, KC_Z, KC_X, KC_C, KC_V, KC_B, LGUI(KC_V), RALT(KC_SLSH), KC_N, KC_M, LCTL(KC_F1), LCTL(KC_F2), KC_VOLU, KC_RSFT, 
-		KC_TRNS, KC_LCTL, KC_LALT, KC_TRNS, KC_LGUI, KC_TRNS, LGUI(KC_C), KC_ENT, KC_MPLY, LGUI(KC_K), KC_SLSH, KC_MPRV, KC_VOLD, KC_MNXT),
+  [2] = LAYOUT(KC_GESC, KC_1, KC_2, KC_3, KC_4, KC_5, KC_6, KC_7, KC_8, KC_9, KC_0, KC_MINS, KC_LBRC, KC_BSPC, 
+    KC_TAB, KC_Q, KC_W, KC_E, KC_R, KC_T, LSFT(KC_F5), KC_NO, KC_Y, KC_U, KC_I, KC_O, KC_P, KC_SCLN, 
+    HYPR(KC_NO), KC_A, KC_S, KC_D, KC_F, KC_G, LCA(KC_NO), LGUI(KC_J), KC_H, KC_J, KC_K, KC_L, KC_QUOT, KC_ENT, 
+    KC_LSFT, KC_Z, KC_X, KC_C, KC_V, KC_B, LGUI(KC_V), RALT(KC_SLSH), KC_N, KC_M, LCTL(KC_F1), LCTL(KC_F2), KC_VOLU, KC_RSFT, 
+    KC_TRNS, KC_LCTL, KC_LALT, KC_TRNS, KC_LGUI, KC_TRNS, LGUI(KC_C), KC_ENT, KC_MPLY, LGUI(KC_K), KC_SLSH, KC_MPRV, KC_VOLD, KC_MNXT),
 
-	[3] = LAYOUT(KC_GESC, KC_1, KC_2, KC_3, KC_4, KC_5, KC_ESC, KC_LBRC, KC_6, KC_7, KC_8, KC_9, KC_0, KC_BSPC, KC_TAB, KC_Q, KC_W, KC_F, KC_P, KC_G, LSFT(KC_F5), LGUI(KC_K), KC_J, KC_L, KC_U, KC_Y, KC_SCLN, KC_MINS, HYPR(KC_NO), KC_A, KC_R, KC_S, KC_T, KC_D, LCA(KC_NO), LGUI(KC_J), KC_H, KC_N, KC_E, KC_I, KC_O, KC_ENT, KC_LSFT, KC_Z, KC_X, KC_C, KC_V, KC_B, KC_LSFT, RALT(KC_SLSH), KC_K, KC_M, KC_COMM, KC_DOT, KC_UP, KC_QUOT, KC_TRNS, KC_LCTL, KC_LALT, MO(1), KC_LGUI, KC_ENT, KC_NO, KC_ENT, KC_SPC, KC_LGUI, KC_SLSH, KC_LEFT, KC_DOWN, KC_RGHT),
+  [4] = LAYOUT(KC_GESC, KC_1, KC_2, KC_3, KC_4, KC_5, KC_ESC, KC_LBRC, KC_6, KC_7, KC_8, KC_9, KC_0, KC_BSPC, KC_TAB, KC_Q, KC_W, KC_F, KC_P, KC_G, LSFT(KC_F5), LGUI(KC_K), KC_J, KC_L, KC_U, KC_Y, KC_SCLN, KC_MINS, HYPR(KC_NO), KC_A, KC_R, KC_S, KC_T, KC_D, LCA(KC_NO), LGUI(KC_J), KC_H, KC_N, KC_E, KC_I, KC_O, KC_ENT, KC_LSFT, KC_Z, KC_X, KC_C, KC_V, KC_B, KC_LSFT, RALT(KC_SLSH), KC_K, KC_M, KC_COMM, KC_DOT, KC_UP, KC_QUOT, KC_TRNS, KC_LCTL, KC_LALT, MO(1), KC_LGUI, KC_ENT, KC_NO, KC_ENT, KC_SPC, KC_LGUI, KC_SLSH, KC_LEFT, KC_DOWN, KC_RGHT),
 
-};	
+};  
 
 // No idea what this does but it seems important. 
 
 
 void matrix_init_user(void) {
-	rgblight_enable();
-	rgblight_setrgb_yellow();
+  rgblight_enable();
+  rgblight_setrgb_yellow();
 };
 
-t// Sets underglow colour to reflect the currently active state
+// Sets underglow colour to reflect the currently active state
 
 uint32_t layer_state_set_user(uint32_t state) {
-	switch (biton32(state)) {
-		case _QWERTY:
-			rgblight_setrgb_yellow();
-			break;
-		case _SHORTCUTS:
-			rgblight_setrgb_springgreen();
-			break;
-		case _MEDIA:
-			rgblight_setrgb_red();
-			break;
-		case _COLEMAK:
-			rgblight_setrgb_purple();
-			break;
-	}
-	return state;
+  switch (biton32(state)) {
+    case _QWERTY:
+      rgblight_setrgb_yellow();
+      break;
+    case _SHORTCUTS:
+      rgblight_setrgb_springgreen();
+      break;
+    case _MEDIA:
+      rgblight_setrgb_red();
+      break;
+    case _COLEMAK:
+      rgblight_setrgb_purple();
+      break;
+  }
+  return state;
 };
 
 
