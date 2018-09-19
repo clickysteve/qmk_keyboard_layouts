@@ -22,7 +22,7 @@ enum custom_keycodes {
  MACRO_ME,
  MACRO_SPACEDOUT,
  MACRO_HMM,
- MACRO_SHRUG,
+ MACRO_SHRUG, 
  MACRO_FLIP
 };
 
